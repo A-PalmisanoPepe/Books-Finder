@@ -1,0 +1,17 @@
+.Folder {
+    display: flex;
+    align-items: center;
+    background-color: #8557C5;
+    width: 70vw;
+    padding: 25px;
+    margin: 25px auto;
+
+}
+
+.Folder img {
+    width: 100px;
+}
+
+.Folder h2 {
+    margin: auto 40px;
+}

@@ -1,0 +1,21 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 20px auto;
+    width: 65vw;
+}
+
+.About h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.About h3 {
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .About {
+        width: 90vw;
+    }
+}

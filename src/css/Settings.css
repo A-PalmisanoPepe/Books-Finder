@@ -1,0 +1,93 @@
+.Settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+
+.Settings h4 {
+    display: inline;
+    margin: 15px 0;
+}
+
+.Settings form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    /* margin: 0 20px; */
+}
+
+.text {
+    justify-content: space-between;
+}
+
+.Settings input {
+    background-color: lavender;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid;
+    color: #220066;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 300px;
+}
+
+
+.Settings input[type=radio]{
+    width: unset;
+    margin: auto 10px auto 0;
+}
+
+.Settings input:focus {
+    outline: none;
+}
+
+.Settings button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    font-weight: bold;
+    font-family: "Poppins";
+    width: 100px;
+    background-color: #220066;
+    color: #afeeee;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Settings button:hover {
+    background-color: #8557C5;
+}
+
+.Settings input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px lavender inset;
+    -webkit-text-fill-color: #220066;
+  }
+
+@media screen and (max-width: 450px) {
+    .Settings {
+        width: 90vw;
+        text-align: center;
+    }
+
+    .Settings input {
+        width: unset;
+    }
+
+    .Settings .input {
+        margin: 0 5px;
+    }
+
+  }

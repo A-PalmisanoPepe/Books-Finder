@@ -1,0 +1,52 @@
+.Personal-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100vw;
+    align-self: flex-start;
+}
+
+
+
+.folders-navbar {
+    display: flex;
+    flex-direction: column-reverse;
+    
+    justify-content: space-between;
+    width: 93vw;
+    
+}
+
+.container-childfolder {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-add-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.add-button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #220066;
+    border-radius: 100%;
+    margin: 10px;
+    
+}
+
+.add-button:hover {
+    background-color: #afeeee;
+}
+
+.add-button img {
+    width: 50px;
+    border-radius: 100%;
+}

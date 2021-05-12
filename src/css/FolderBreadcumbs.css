@@ -1,0 +1,14 @@
+.Folder-breadcumbs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 7px;
+}
+
+.Folder-breadcumbs .link {
+    display: flex;
+}
+
+.link:hover p{
+    color: #220066;
+}

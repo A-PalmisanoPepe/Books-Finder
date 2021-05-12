@@ -1,0 +1,30 @@
+.Results {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.container-no-results {
+    text-align: center;
+    padding: 60px;
+    width: 60%;
+    background-color: #220066;
+    color: #8557C5;
+}
+
+.container-no-results a {
+    color: #afeeee;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-no-results {
+      width: 90%;  
+      font-size: 12px;
+    }
+
+    .Results .box-info {
+        flex-direction: column;
+    }
+    
+}

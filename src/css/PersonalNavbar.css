@@ -1,0 +1,28 @@
+.Personal-navbar {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #220066;
+    width: 100vw;
+    height: 40px;
+}
+
+.Personal-navbar a {
+    display: flex;
+    color: #afeeee;
+    padding: 0 60px;
+
+}
+
+.img-user {
+    width: 25px;
+    margin: auto 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .Personal-navbar a {
+        padding: 0 20px;
+    }
+}

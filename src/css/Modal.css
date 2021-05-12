@@ -1,0 +1,112 @@
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(35, 35, 35, 0.8);
+    z-index: 1;
+    opacity: 1;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.modal-container-mini {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 35, 35, 0.8);
+    z-index: 1;
+}
+
+.modal-mini {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+/*MODAL IN SAVE REFERENCE COMPONENT */
+
+.container-instructions {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.container-select-folder {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.select-folder {
+    display: flex;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.select-folder:hover {
+    color: #afeeee
+}
+
+.select-root-folder {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.select-root-folder:hover {
+    color: #afeeee
+}
+
+.modal-mini .form {
+    width: unset;
+    padding: auto;
+}
+
+.modal-transition-enter {
+    transition: opacity 250ms;
+    opacity: 1;
+}
+
+.modal-transition-enter-done {
+    opacity: 1;
+    transition: opacity 250ms;
+}
+
+.modal-transition-exit,  .modal-transition-exit-active {
+    opacity: 1;
+    transition: opacity 250ms;
+}
+
+.modal-transition-exit-done {
+    opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .modal {
+        text-align: center;
+    }
+    
+    .container-instructions{
+        font-size: 12px;
+    }    
+}

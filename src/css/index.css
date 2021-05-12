@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scrollbar-width: 15px;
+    scrollbar-color:  #8557C5 lavender;
+}
+
+*::-webkit-scrollbar {
+    width: 15px; 
+}
+
+*::-webkit-scrollbar-track {
+    background-color: lavender;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8557C5;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: 	 #220066;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Poppins";
+    color: #220066;
+}
+
+a:hover {
+    color: #afeeee;
+}
+
+.options h3 {
+    display: flex;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #220066;
+    color: #afeeee;
+    width: 300px;
+    height: 50px;
+}
+
+.options:hover {
+    
+    background-color: #8557C5;
+}
+
+.options a {
+    color: #afeeee;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #8557C5 inset;
+    -webkit-text-fill-color: #220066;
+  }
+
+::placeholder { 
+    color: darkslateblue;
+    opacity: 1; 
+}
+  
+:-ms-input-placeholder { 
+    color: darkslateblue;
+  }
+  
+::-ms-input-placeholder {
+    color: darkslateblue;
+}
+
+@media screen and (max-width: 768px) {
+    .options {
+        width: 270px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}
