@@ -85,7 +85,7 @@ export default function SaveReference() {
                         <FoldersList/>
                     </div>
 
-                    <h4>OR CHOOSE THE&nbsp;<div className="select-root-folder" onClick={()=> setSelectedFolder("")}>ROOT FOLDER</div>.</h4>
+                    <h4>OR CHOOSE THE&nbsp;<div className="select-root-folder" onClick={()=> setSelectedFolder(null)}>ROOT FOLDER</div>.</h4>
                 </div>
             )
         }

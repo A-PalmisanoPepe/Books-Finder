@@ -1,7 +1,7 @@
 <br />
 <p align="center">
-  <a href="">
-    <img src="src/images/icon.png" alt="Logo" width="80" height="80">
+  <a href="https://booksfinder-8dd23.web.app">
+    <img src="src/images/icon.png" alt="Logo" height="80">
   </a>
 
   <h3 align="center">Books Finder</h3>
@@ -59,16 +59,20 @@ This filters are setted by using Google Books APIs that you can find at https://
 ### Sign In
 
 Accounts are created and managed by using Firebase Authentication.
+
+
 More info at https://firebase.google.com
 
 ### Add Notes
 
 Folders, childfolders, notes, book references are created and stored by using Firestore. 
+
+
 More info at https://firebase.google.com
 
 ## Try it out
 
-Take a look at my app -
+Take a look at my app - https://booksfinder-8dd23.web.app
 
 
 ## Getting Started
